@@ -24,9 +24,9 @@ class RadioButton: UIView {
     }
     
     /// 선택 됬 을때 이미지
-    var selectImage = UIImage(named: "icRadioOnPrimary16")
+    var selectImage = UIImage(named: "radioOn")
     /// 선택 해제시 이미지
-    var unselectImage = UIImage(named: "icRadioOffWh16")
+    var unselectImage = UIImage(named: "radioOff")
 
     /// 체크 이미지 뷰
     private var checkImageView = UIImageView()
